@@ -6,9 +6,8 @@ my_dict['Karina'] = 2013
 my_dict.update( {'Maria' : 1913 ,
                  'Mark' : 2122})
 print(my_dict)
-del my_dict['Mark']
-print(my_dict.get('Mark'))
-print(my_dict)
+del_value = my_dict.pop('Mark')
+print(del_value)
 
 my_set = {1, 2, 4, 7, 8, 'Mayki', 'String', 1, 4, 3}
 print(my_set)
